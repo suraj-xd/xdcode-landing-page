@@ -10,7 +10,7 @@ export default function Club() {
                             {/* Logo */}
                             <div className='flex gap-x-2 items-center'>
                                 <Link href={"/"}>
-                                <img className="cursor-pointer h-10 w-12" src="logo.png" />
+                                <img className="cursor-pointer h-10 w-12" src="logo2.png" />
                                 </Link>
                             </div>
                             <div className="flex justify-center items-center gap-5 monu text-white">
@@ -22,7 +22,7 @@ export default function Club() {
                         </div>
                     </div>
                 </div>
-                <div className="w-[90%] h-full text-white comfort mx-10 md:mx-20 my-32">
+                <div className="h-screen text-white comfort mx-10 md:mx-20 my-32">
                     <div className="">
                         <div className="w-20 h-[1px] bg-white my-2"></div>
                         <h1 className="monu text-gray-100  text-[2rem]">Rules</h1>
@@ -67,7 +67,7 @@ export default function Club() {
                 <div class="sm:flex sm:items-center sm:justify-between">
                     <a href="https://crackdsa.com/" class="flex items-center mb-4 sm:mb-0">
                         {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" /> */}
-                        <span className="monu text-white font-extrabold kanit text-4xl">XD<span className="text-gray-400 font-extrabold "> Code</span></span>
+                        <span className="monu text-white font-extrabold  text-4xl">XD<span className="text-gray-400 font-extrabold monu"> Code</span></span>
                     </a>
                     <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-300 sm:mb-0 dark:text-gray-400">
                         <li>
