@@ -15,7 +15,7 @@ export default function Club() {
                                 {/* <a href="#about" className="ripple hidden md:block  cursor-pointer px-2 py-2 rounded-md">About</a> */}
                                 <Link href={"/rules"}>
 
-                                    <h1 className="ripple cursor-pointer hidden md:block  px-2 py-2 rounded-md ">Rules</h1>
+                                    <h1 className="ripple cursor-pointer text-sm sm:text-base  px-2 py-2 rounded-md ">Rules</h1>
                                 </Link>
                                 <a href="https://forms.gle/vjS6yrbdoLu89uHA9" target={"_blank"} className="ripple -z-1 enter-app-btn btn btn-primary btn-gradient font-monument px-10 py-2 monu ">
                                     Join
@@ -25,7 +25,7 @@ export default function Club() {
                     </div>
                 </div>
 
-                <div>
+                <div className="">
                     <img className="intro-bg-vid w-[100vw] md:w-[60vw] hidden md:block" src="./globe.jpg" />
                     <img className="intro-bg-vid w-[60vw] md:w-[60vw] h-[38vh] rotate-[360deg] md:hidden block" src="./u.webp" />
                     <div className="row align-items-center justify-content-between">
@@ -46,13 +46,16 @@ export default function Club() {
                                 <div className="flex gap-3 mt-5 justify-start items-center">
                                     <a href="https://discord.gg/PuGhSpRdj9" target={"_blank"}>
 
-                                        <img className="h-10 w-10 hover:scale-[1.08] hover:brightness-150" src="https://img.icons8.com/ios-filled/50/7950F2/discord--v1.png" />
+                                        <img className="h-10 w-10 hover:scale-[1.08] hover:brightness-150" src="https://img.icons8.com/ios-filled/50/FFFFFF/discord--v1.png" />
                                     </a>
                                     {/* <a>
                                         <img className="h-8 w-8" src="https://img.icons8.com/ios-filled/50/7950F2/linkedin.png" />
                                     </a> */}
                                     <a href="https://www.instagram.com/xd.coders/" target={"_blank"}>
-                                        <img className="h-9 w-9 hover:scale-[1.08] hover:brightness-150" src="https://img.icons8.com/glyph-neue/64/7950F2/instagram-new--v1.png" />
+                                        <img className="h-9 w-9 hover:scale-[1.08] hover:brightness-150" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/FFFFFF/external-instagram-social-media-tanah-basah-glyph-tanah-basah.png" />
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/xdcode" target={"_blank"}>
+                                        <img className="h-9 w-9 hover:scale-[1.08] hover:brightness-150" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin--v1.png" />
                                     </a>
                                 </div>
                             </div>
@@ -172,7 +175,7 @@ export default function Club() {
                                     {/* <div className="w-10 h-[1px] bg-white mt-4"></div> */}
                                     <h1 className="monu mt-2 text-blue-500 cursor-pointer">Rahul Singhal</h1>
                                     <h1 className="font-extrabold">Founder</h1>
-                                    <h1 className="text-xs text-gray-300"> ( Asst. Director SRCEM )</h1>
+                                    <h1 className="text-xs text-gray-300"> (Executive Officer, SRCEM)</h1>
                                 </div>
                             </div>
                         </a>
@@ -223,40 +226,51 @@ export default function Club() {
                         every member has to follow these rules and regulations for better workspace
                     </p>
 
-                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
-                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                        Understand the club’s activities and goals.
-
-                    </p>
-                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
-                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                        Must crarify the information before speading it into the community
-                    </p>
-                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
-                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                        Be aware of the club’s meeting schedule and location.
-                    </p>
-                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
-                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                        Be respectful to other members and their opinions.
-                    </p>
-                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
-                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                        Be willing to learn and help others learn.
-                    </p>
-                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
-                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                        Be open to feedback and constructive criticism
-                    </p>
+                    <div className="flex">
+                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
+                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                            Understand the club’s activities and goals.
+                        </p>
+                    </div>
+                    <div className="flex">
+                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
+                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                            Must crarify the information before speading it into the community
+                        </p>
+                    </div>
+                    <div className="flex">
+                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
+                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                            Be aware of the club’s meeting schedule and location.
+                        </p>
+                    </div>
+                    <div className="flex">
+                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
+                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                            Be respectful to other members and their opinions.
+                        </p>
+                    </div>
+                    <div className="flex">
+                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
+                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                            Be willing to learn and help others learn.
+                        </p>
+                    </div>
+                    <div className="flex">
+                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
+                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                            Be open to feedback and constructive criticism
+                        </p>
+                    </div>
                 </div>
 
             </main>
             <div className="w-full h-[1px] my-2 bg-gray-800"></div>
-            <footer class="p-4 shadow md:px-6 dark:bg-gray-900">
+            <footer class="p-4 shadow md:px-6">
                 <div class="sm:flex sm:items-center sm:justify-between">
-                    <a href="https://crackdsa.com/" class="flex items-center mb-4 sm:mb-0">
+                    <a href="" class="flex items-center mb-4 sm:mb-0">
                         {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" /> */}
-                        <span className="text-white font-extrabold monu text-4xl">XD<span className="text-gray-400 font-extrabold kanit"> Code</span></span>
+                        <span className="text-white font-extrabold monu text-4xl">XD<span className="text-gray-400 font-extrabold monu"> Code</span></span>
                     </a>
                     <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-300 sm:mb-0 dark:text-gray-400">
                         {/* <li>
@@ -269,7 +283,7 @@ export default function Club() {
                             <a href="https://wa.me/message/TPN76XLWVOWDB1" class="mr-4 hover:underline md:mr-6">Whatsapp</a>
                         </li> */}
                         <li>
-                            <a href="mailto:unofficialartist3@gmail.com" class="hover:underline">Contact</a>
+                            <a href="mailto:unofficialartist3@gmail.com" class="comfort hover:underline">Contact</a>
                         </li>
                     </ul>
                 </div>
