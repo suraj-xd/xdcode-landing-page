@@ -15,7 +15,7 @@ export default function Club() {
                                 {/* <a href="#about" className="ripple hidden md:block  cursor-pointer px-2 py-2 rounded-md">About</a> */}
                                 <Link href={"/rules"}>
 
-                                    <h1 className="ripple cursor-pointer text-sm sm:text-base  px-2 py-2 rounded-md ">Rules</h1>
+                                    <h1 className="ripple cursor-pointer text-sm hidden md:block sm:text-base  px-2 py-2 rounded-md ">Rules</h1>
                                 </Link>
                                 <a href="https://forms.gle/vjS6yrbdoLu89uHA9" target={"_blank"} className="ripple -z-1 enter-app-btn btn btn-primary btn-gradient font-monument px-10 py-2 monu ">
                                     Join
@@ -226,42 +226,35 @@ export default function Club() {
                         every member has to follow these rules and regulations for better workspace
                     </p>
 
-                    <div className="flex">
-                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
+                    
                         <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
                             Understand the club’s activities and goals.
                         </p>
-                    </div>
-                    <div className="flex">
-                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
                         <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
                             Must crarify the information before speading it into the community
                         </p>
-                    </div>
-                    <div className="flex">
-                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
+                    
                         <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
                             Be aware of the club’s meeting schedule and location.
                         </p>
-                    </div>
-                    <div className="flex">
-                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
+                    
                         <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
                             Be respectful to other members and their opinions.
                         </p>
-                    </div>
-                    <div className="flex">
-                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
+                    
                         <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
                             Be willing to learn and help others learn.
                         </p>
-                    </div>
-                    <div className="flex">
-                        <div className="w-[1px] sm:w-3 h-[1px] bg-gray-200 rounded-full"></div>
+                    
                         <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                        <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
                             Be open to feedback and constructive criticism
                         </p>
-                    </div>
                 </div>
 
             </main>
