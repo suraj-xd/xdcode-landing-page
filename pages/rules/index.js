@@ -2,7 +2,10 @@ import Link from "next/link";
 
 export default function Club() {
     return (
-        <>
+        <>  
+        <head>
+            <title>Rules</title>
+        </head>
             <main className="sticky">
                 <div className={`p-5 w-full sticky top-2 left-0 right-0 z-50`}>
                     <div className="backdrop-blur-lg bg-white bg-opacity-5 p-5 lg:px-8 px-4 rounded-2xl">

@@ -3,6 +3,9 @@ import Link from "next/link";
 export default function Club() {
     return (
         <>
+            <head>
+                <title>XD-Code - Coding Club SRCEM</title>
+            </head>
             <main className="sticky">
                 <div className={`p-5 w-full sticky top-2 left-0 right-0 z-50`}>
                     <div className="backdrop-blur-lg bg-white bg-opacity-5 p-5 lg:px-8 px-4 rounded-2xl">
@@ -37,11 +40,14 @@ export default function Club() {
                                     <h1>sleep.</h1>
                                 </div>
                                 <div className="w-32 h-[2px] bg-white my-5">       </div>
-                                <h1 className="monu text-[4rem] md:text-[7rem] uppercase">XD Code</h1>
-                                <h1 className="monu text-[2rem] text-white">Coding Club </h1>
-                                <Link target={"_blank"} href={"http://srgoc.org/"}>
+                                <h1 className="monu text-[4rem] md:text-[7rem] uppercase box-with-text">XD Code</h1>
+                                <h1 className="monu text-[2rem] text-white ">Coding Club </h1>
+                                <div className="flex justify-center items-center gap-4">
                                     <h1 className="cursor-pointer monu text-[2rem] text-[#9ca0d2]">SRCEM</h1>
-                                </Link>
+                                    <a target={"_blank"} href={"http://srgoc.org/"}>
+                                        <img className="cursor-pointer hover:scale-125 transition-transform ease-in-out" width="40" height="40" src="https://img.icons8.com/dotty/80/FFFFFF/internet.png" alt="internet" />
+                                    </a>
+                                </div>
                                 <div className="h-2 w-20 bg-gradient-to-r from-blue-500 to-green-500 rounded-full my-2"></div>
                                 <div className="flex gap-3 mt-5 justify-start items-center">
                                     <a href="https://discord.gg/PuGhSpRdj9" target={"_blank"}>
@@ -52,7 +58,7 @@ export default function Club() {
                                         <img className="h-8 w-8" src="https://img.icons8.com/ios-filled/50/7950F2/linkedin.png" />
                                     </a> */}
                                     <a href="https://www.instagram.com/xd.coders/" target={"_blank"}>
-                                        <img className="h-9 w-9 hover:scale-[1.08] hover:brightness-150" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/FFFFFF/external-instagram-social-media-tanah-basah-glyph-tanah-basah.png" />
+                                        <img className="h-9 w-9 hover:scale-[1.08] hover:brightness-150" src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram-new--v1.png" />
                                     </a>
                                     <a href="https://www.linkedin.com/company/xdcode" target={"_blank"}>
                                         <img className="h-9 w-9 hover:scale-[1.08] hover:brightness-150" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin--v1.png" />
@@ -163,38 +169,54 @@ export default function Club() {
 
                     <div className="flexflex-col flex-wrap gap-5 justify-center sm:justify-start items-center">
 
-                        <a href="https://www.linkedin.com/in/rahulsinghal01/" target={"_blank"}>
-                            <div className="my-10 flex-row text-center flex flex-wrap md:justify-start justify-center items-center gap-6 relative ">
+                        <div className="my-10 flex-row text-center flex flex-wrap md:justify-start justify-center items-center gap-6 relative ">
 
-                                <img className="absolute hidden md:block w-10 h-10 -top-4 -left-4 rotate-[180deg] rounded-md z-[-1]" src="./u.webp" />
-                                <div class="card rounded-xl overflow-hidden hover:scale-[1.1] transition-all ease-in-out">
-                                    <img className=" w-full h-full object-cover" src="./rahul.jpeg" />
-                                </div>
-                                <div>
-
-                                    {/* <div className="w-10 h-[1px] bg-white mt-4"></div> */}
-                                    <h1 className="monu mt-2 text-blue-500 cursor-pointer">Rahul Singhal</h1>
-                                    <h1 className="font-extrabold">Founder</h1>
-                                    <h1 className="text-xs text-gray-300"> (Executive Officer, SRCEM)</h1>
-                                </div>
+                            <img className="absolute hidden md:block w-10 h-10 -top-4 -left-4 rotate-[180deg] rounded-md z-[-1]" src="./u.webp" />
+                            <div class="card rounded-xl  relative group overflow-hidden">
+                                <img className="w-full h-full object-cover" src="./rahul.jpeg" />
+                                <a target={"_blank"} href={"https://www.linkedin.com/in/rahulsinghal01/"}>
+                                    <div className="transition-all ease-in-out translate-y-full group-hover:translate-y-0 w-full h-full flex justify-center items-center bg-[#000000ad] z-10 absolute left-0 top-0">
+                                        <img className="h-12 w-12" src="https://img.icons8.com/color/48/linkedin.png" />
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                            <div>
 
-                        <a target={"_blank"} href={"https://linktr.ee/surajxd"}>
-                            <div className="my-10 text-center flex justify-center md:justify-start flex-wrap items-center flex-row gap-8 relative">
-                                <img className="absolute hidden md:block w-10 h-10 -top-4 -left-4 rounded-md z-[-1]" src="./u.webp" />
-                                <div class="card rounded-xl overflow-hidden hover:scale-[1.1] transition-all ease-in-out">
-                                    <img className="w-full h-full object-cover" src="./suraj.jpg" />
-                                </div>
-                                <div>
-
-                                    {/* <div className="w-10 h-[1px] bg-white mt-4"></div> */}
-                                    <h1 className="monu mt-2 text-blue-500 cursor-pointer">Suraj Gaud</h1>
-                                    <h1 className=" font-extrabold">Club Head</h1>
-                                    <h1 className="text-xs text-gray-300"> ( Student, SRCEM )</h1>
-                                </div>
+                                {/* <div className="w-10 h-[1px] bg-white mt-4"></div> */}
+                                <h1 className="monu mt-2 text-blue-500 cursor-pointer">Rahul Singhal</h1>
+                                <h1 className="font-extrabold">Founder</h1>
+                                <h1 className="text-xs text-gray-300"> (Executive Officer, SRCEM)</h1>
                             </div>
-                        </a>
+                        </div>
+
+                        <div className="my-10 text-center flex justify-center md:justify-start flex-wrap items-center flex-row gap-8 relative">
+                            <img className="absolute hidden md:block w-10 h-10 -top-4 -left-4 rounded-md z-[-1]" src="./u.webp" />
+                            <div class="card rounded-xl  relative group overflow-hidden">
+                                <img className="w-full h-full object-cover" src="./suraj.jpg" />
+                                <a target={"_blank"} href={"https://www.linkedin.com/in/gaudsuraj/"}>
+                                    <div className="transition-all ease-in-out translate-y-full group-hover:translate-y-0 w-full h-full flex justify-center items-center bg-[#000000ad] z-10 absolute left-0 top-0">
+                                        <img className="h-12 w-12" src="https://img.icons8.com/color/48/linkedin.png" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+
+                                {/* <div className="w-10 h-[1px] bg-white mt-4"></div> */}
+                                <h1 className="monu mt-2 text-blue-500">Suraj Gaud</h1>
+                                <h1 className=" font-extrabold">Club Head</h1>
+                                <h1 className="text-xs text-gray-300"> ( Student, SRCEM )</h1>
+                                <div className="flex justify-center items-center gap-2">
+
+                                    <a target={"_blank"} href={"https://www.linkedin.com/in/gaudsuraj/"}>
+                                        <img className="h-8 my-2 w-8 mx-auto" src="https://img.icons8.com/color/48/linkedin.png" />
+                                    </a>
+                                    <a target={"_blank"} href={"https://linktr.ee/surajxd"}>
+                                        <img className="h-7 my-2 w-7 mx-auto" src="https://img.icons8.com/pulsar-line/48/FFFFFF/linktree.png" alt="linktree" />
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                     {/* <div className="w-20 h-[1px] bg-white my-2"></div> */}
                     <div className=" mb-10">
@@ -226,35 +248,35 @@ export default function Club() {
                         every member has to follow these rules and regulations for better workspace
                     </p>
 
-                    
-                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+
+                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
                         <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                            Understand the club’s activities and goals.
-                        </p>
-                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                        Understand the club’s activities and goals.
+                    </p>
+                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
                         <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                            Must crarify the information before speading it into the community
-                        </p>
-                    
-                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                        Must crarify the information before speading it into the community
+                    </p>
+
+                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
                         <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                            Be aware of the club’s meeting schedule and location.
-                        </p>
-                    
-                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                        Be aware of the club’s meeting schedule and location.
+                    </p>
+
+                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
                         <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                            Be respectful to other members and their opinions.
-                        </p>
-                    
-                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                        Be respectful to other members and their opinions.
+                    </p>
+
+                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
                         <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                            Be willing to learn and help others learn.
-                        </p>
-                    
-                        <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
+                        Be willing to learn and help others learn.
+                    </p>
+
+                    <p className="text-[#9ca0d2] py-1 flex gap-3 justify-start items-center">
                         <div className="w-3 h-[1px] bg-gray-200 rounded-full"></div>
-                            Be open to feedback and constructive criticism
-                        </p>
+                        Be open to feedback and constructive criticism
+                    </p>
                 </div>
 
             </main>
